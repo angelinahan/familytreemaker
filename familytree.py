@@ -1,6 +1,9 @@
 from graphviz import Digraph
 import pandas as pd
 
+# from following article
+# https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316
+
 ancestry = pd.read_csv('han_family_tree.csv')
 earl_ans = ancestry.loc[ancestry['Relation'] == 'Earliest Ancestor', 'Person 1'].iloc[0]
 ancestry['recorded_ind'] = 0    # Flag for indicating individuals whose data has been recorded in the tree
@@ -21,7 +24,7 @@ node_nm.append(earl_ans)
 ancestry.loc[ancestry['Person 1'] == earl_ans, 'recorded_ind'] = 1
 
 # max_iter should be greater than number of generations
-max_iter = 5
+max_iter = 10
 
 for i in range(0, max_iter):
     print(i)

@@ -1,0 +1,77 @@
+# This file is an example to show how to format a family.
+
+#HANS
+#1st Gen families -------------------------------------
+Han 1st Gen (M)
+Unknown (id=1, F)
+	Han 2nd Gen (M)
+
+#2nd Gen families -------------------------------------
+Han 2nd Gen (M)
+Unknown (id=2, F)
+	Han 3rd Gen #1 (M)
+	Han 3rd Gen #2 (M)
+	Han 3rd Gen #3 (M)
+	Han 3rd Gen #4 (M)
+	Han 3rd Gen #5 (M)
+	Han 3rd Gen #6 (M)
+
+#3rd Gen families -------------------------------------
+Han 3rd Gen #5 (M)
+Han Hou De Mother (F)
+	Han Hou De\n韩厚德 (M, birthday=1938)
+
+Han 3rd Gen #5 (M)
+Zhu ? (F)
+	Han Weí\n韩韦​ (M, birthday=1929, deathday=2008)​
+
+#4th Gen families -------------------------------------
+Han Hou De\n韩厚德 (M, birthday=1938)
+Wu Lan Cheng\n吴兰成 (F, birthday=1934)
+	Xiaofeng Han\n韩小峰 (M, birthday=1964)
+	Han Yi\n韩益 (M)
+
+Han Weí\n韩韦​ (M, birthday=1929, deathday=2008)​
+Wáng Jiān\n王坚 ​(F, birthday=1927, deathday=2007)​
+	Han Yóng\n韩涌 (M, birthday=1955)
+	Min Han\n韩珉 (M, birthday=1956)
+	Shan Han\n韩山 (M, birthday=1958)
+
+#Wang/Huo branch
+Huo Li Zhen (F)
+Wang Wen Qing (M)
+	Xiaoli Wang\n王晓黎 (F, birthday=1964)
+	Wang Xiao Qing\n王晓青 (M)
+
+#5th gen families -------------------------------------
+Min Han\n韩珉 (M, birthday=1956)
+Yuming Han\n韩玉明 (F, birthday=1956)
+	Leo Liǔ Han (M, birthday=1984)
+	​Lisa Yīn Han\n韩茵​ (F, 1991)​
+
+Xiaofeng Han\n韩小峰 (M, birthday=1964)
+Xiaoli Wang\n王晓黎 (F, birthday=1964)
+	Angelina Han\n韩安吉 (F, birthday=2000)
+	Nathan Han\n韩安颉 (M, birthday=2008)
+
+#Wang branch
+Wang Xiao Qing\n王晓青 (M)
+Xiao Hong (F)
+	Wang Yi Qian (M)
+
+#Huo branch
+Huo Chao (M)
+Unknown (id=23, F)
+	Huo Ping Xin
+
+Huo Lin (F)
+Shi Unknown (id=2020, M)
+	Shi Nai Xin (F)
+
+Huo Xiao Guang
+Unknown (id=1029, F)
+
+#6th gen families -------------------------------------
+Leo Liǔ Han (M, birthday=1984)
+Chloe Isabel Han (F)
+	Lennon Rose Han (F, birthday=2020)

@@ -1,0 +1,88 @@
+// Ancestry
+digraph {
+	graph [splines=ortho]
+	"Han 1st Gen" [label="Han 1st Gen" shape=rect tooltip="Han Wei's great grandfather: District governor (dao tai)"]
+	"Han 2nd Gen" [label="Han 2nd Gen" shape=rect tooltip="Unknown Han: County governor in Henan province, by way of exam (scholar) under Qing dynasty"]
+	"Han 1st Gen" -> "Han 2nd Gen"
+	"Han 3rd Gen #1" [label="Han 3rd Gen #1" shape=rect tooltip="1st son of county governor Han. War hero, went to a famous army school, was paralyzed in battle. Had a daughter, acted as adoptive father to Han Wei so that Han Wei could get an education for free."]
+	"Han 2nd Gen" -> "Han 3rd Gen #1"
+	"Han 3rd Gen #2" [label="Han 3rd Gen #2" shape=rect tooltip=nan]
+	"Han 2nd Gen" -> "Han 3rd Gen #2"
+	"Han 3rd Gen #3" [label="Han 3rd Gen #3" shape=rect tooltip=nan]
+	"Han 2nd Gen" -> "Han 3rd Gen #3"
+	"Han 3rd Gen #4" [label="Han 3rd Gen #4" shape=rect tooltip=nan]
+	"Han 2nd Gen" -> "Han 3rd Gen #4"
+	"Han 3rd Gen #5" [label="Han 3rd Gen #5" shape=rect tooltip=nan]
+	"Han 2nd Gen" -> "Han 3rd Gen #5"
+	"Han 3rd Gen #6" [label="Han 3rd Gen #6" shape=rect tooltip=nan]
+	"Han 2nd Gen" -> "Han 3rd Gen #6"
+	{
+		rank=same
+		"Zhu 3rd Gen (Han Wei Mother)" [label="Zhu 3rd Gen (Han Wei Mother)" fillcolor=red shape=ellipse tooltip=nan]
+		"Han 3rd Gen #5" -> "Zhu 3rd Gen (Han Wei Mother)" [arrowhead=none color="black:invis:black"]
+	}
+	{
+		rank=same
+		"Han Hou De Mother" [label="Han Hou De Mother" fillcolor=red shape=ellipse tooltip="Had 4 sons, Manchurian origin, distinguished family"]
+		"Han 3rd Gen #5" -> "Han Hou De Mother" [arrowhead=none color="black:invis:black"]
+	}
+	"Han Hou De 韩厚德 " [label="Han Hou De 韩厚德 " shape=rect tooltip="Father of Han Wei: 5th son. Owned property in Kaifeng, son of a county governor, well educated and could speak English, became an opium addict and sold most of the family belongings. Two wives, both rich. Second wife was of Manchurian descent."]
+	"Han Hou De Mother" -> "Han Hou De 韩厚德 "
+	"Han Weí 韩韦​ (1929-2008)​" [label="Han Weí 韩韦​ (1929-2008)​" shape=rect tooltip=nan]
+	"Zhu 3rd Gen (Han Wei Mother)" -> "Han Weí 韩韦​ (1929-2008)​"
+	{
+		rank=same
+		"Wu Lan Cheng 吴兰成" [label="Wu Lan Cheng 吴兰成" fillcolor=red shape=ellipse tooltip=nan]
+		"Han Hou De 韩厚德 " -> "Wu Lan Cheng 吴兰成" [arrowhead=none color="black:invis:black"]
+	}
+	{
+		rank=same
+		"Wáng Jiān 王坚 ​(1927-2007)​" [label="Wáng Jiān 王坚 ​(1927-2007)​" fillcolor=red shape=ellipse tooltip=nan]
+		"Han Weí 韩韦​ (1929-2008)​" -> "Wáng Jiān 王坚 ​(1927-2007)​" [arrowhead=none color="black:invis:black"]
+	}
+	"Han Xiao Feng 韩小峰" [label="Han Xiao Feng 韩小峰" shape=rect tooltip=nan]
+	"Han Hou De 韩厚德 " -> "Han Xiao Feng 韩小峰"
+	"Han Yi 韩益" [label="Han Yi 韩益" shape=rect tooltip=nan]
+	"Han Hou De 韩厚德 " -> "Han Yi 韩益"
+	"Han Yóng 韩涌 (1955-)" [label="Han Yóng 韩涌 (1955-)" shape=rect tooltip=nan]
+	"Han Weí 韩韦​ (1929-2008)​" -> "Han Yóng 韩涌 (1955-)"
+	"Shan Han 韩山 (1958-)" [label="Shan Han 韩山 (1958-)" shape=rect tooltip=nan]
+	"Han Weí 韩韦​ (1929-2008)​" -> "Shan Han 韩山 (1958-)"
+	"Min Han 韩珉 (1956-​" [label="Min Han 韩珉 (1956-​" shape=rect tooltip=nan]
+	"Han Weí 韩韦​ (1929-2008)​" -> "Min Han 韩珉 (1956-​"
+	{
+		rank=same
+		"Wang Xiao Li 王晓黎" [label="Wang Xiao Li 王晓黎" fillcolor=red shape=ellipse tooltip=nan]
+		"Han Xiao Feng 韩小峰" -> "Wang Xiao Li 王晓黎" [arrowhead=none color="black:invis:black"]
+	}
+	{
+		rank=same
+		"Guāng Bīng" [label="Guāng Bīng" fillcolor=red shape=ellipse tooltip=nan]
+		"Han Yóng 韩涌 (1955-)" -> "Guāng Bīng" [arrowhead=none color="black:invis:black"]
+	}
+	{
+		rank=same
+		"Julie Han (Zhū Jiāng Yí 朱江怡)​" [label="Julie Han (Zhū Jiāng Yí 朱江怡)​" fillcolor=red shape=ellipse tooltip=nan]
+		"Shan Han 韩山 (1958-)" -> "Julie Han (Zhū Jiāng Yí 朱江怡)​" [arrowhead=none color="black:invis:black"]
+	}
+	{
+		rank=same
+		"Yuming Han 韩 玉明 (1956-​" [label="Yuming Han 韩 玉明 (1956-​" fillcolor=red shape=ellipse tooltip=nan]
+		"Min Han 韩珉 (1956-​" -> "Yuming Han 韩 玉明 (1956-​" [arrowhead=none color="black:invis:black"]
+	}
+	"Angelina Han 韩安吉" [label="Angelina Han 韩安吉" shape=ellipse tooltip=nan]
+	"Han Xiao Feng 韩小峰" -> "Angelina Han 韩安吉"
+	"Nathan Han 韩安颉" [label="Nathan Han 韩安颉" shape=rect tooltip=nan]
+	"Han Xiao Feng 韩小峰" -> "Nathan Han 韩安颉"
+	"​Lisa Yīn Han 韩茵​ (1991-)​" [label="​Lisa Yīn Han 韩茵​ (1991-)​" shape=ellipse tooltip=nan]
+	"Min Han 韩珉 (1956-​" -> "​Lisa Yīn Han 韩茵​ (1991-)​"
+	"Leo Liǔ Han (1984-" [label="Leo Liǔ Han (1984-" shape=rect tooltip=nan]
+	"Min Han 韩珉 (1956-​" -> "Leo Liǔ Han (1984-"
+	{
+		rank=same
+		"Chloe Isabel Han" [label="Chloe Isabel Han" fillcolor=red shape=ellipse tooltip=nan]
+		"Leo Liǔ Han (1984-" -> "Chloe Isabel Han" [arrowhead=none color="black:invis:black"]
+	}
+	"Lennon Rose Han (2020-)" [label="Lennon Rose Han (2020-)" shape=ellipse tooltip=nan]
+	"Leo Liǔ Han (1984-" -> "Lennon Rose Han (2020-)"
+}

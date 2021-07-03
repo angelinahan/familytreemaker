@@ -26,6 +26,8 @@ The sample family descriptor `LouisXIVfamily.txt` is here to show you the
 usage. Simply run:
 ```
 $ ./familytreemaker.py -a 'Louis XIV' LouisXIVfamily.txt | dot -Tpng -o LouisXIVfamily.png
+$ ./familytreemaker.py -a 'Han 1st Gen' han_family.txt | dot -Tpng -o han_family_tree.png
+$ ./familytreemaker.py -a 'Han 1st Gen' han_wang_families.txt | dot -Tpng -o han_wang_family_tree.png
 ```
 It will generate the tree from the infos in `LouisXIVfamily.txt`, starting from
 *Louis XIV* and saving the image in `LouisXIVfamily.png`.
